@@ -19,15 +19,15 @@
 
 .principal-div__titulo {
   font-weight: 900;
-  font-size: 42px;
+  font-size: 38px;
   margin: 0;
   padding: 0;
 }
 
 .principal-div__titulo2 {
   font-weight: 900;
-  font-size: 42px;
-  margin: 0 0 0 48px;
+  font-size: 38px;
+  margin: 0 0 0 62px;
   padding: 0;
   text-align: end;
 }
@@ -56,17 +56,26 @@
   display: flex;
   gap: 24px;
   margin-bottom: 32px;
-  padding: 8px 64px 8px 8px;
 }
 
 .principal-lista__item--icone {
   height: 24px;
   width: 24px;
+  padding-left: 8px;
 }
 
 .principal-lista__item--link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.principal-lista__item--texto {
+  display: flex;
+  align-items: center;
   color: #000000;
   font-weight: 700;
   font-size: 18px;
   text-decoration: none;
+  padding: 12px 92px 12px 16px;
 }
